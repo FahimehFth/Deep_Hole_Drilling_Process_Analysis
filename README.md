@@ -1,5 +1,6 @@
 # Deep_Hole_Drilling_Process_Analysis
 An in-depth study on the BTA (Boring and Trepanning Association) deep hole drilling process.
+
 This project involves analyzing time-series data from various sensors using advanced techniques 
 such as Fast Fourier Transform (FFT) and periodograms. The goal is to develop a detection mechanism
 to identify early signs of issues like chattering and spiraling during the drilling process.
@@ -49,10 +50,10 @@ The given data is part of  Project C5 and are measured by the Institut für Span
 ## Technologies Used
 
 - **R Programming Language:** Used for data analysis, visualization, and statistical modeling.
--**Libraries:**
-  -tuneR: For handling audio data and waveform manipulation.
--**Techniques Utilized**
-  -Fast Fourier Transform (FFT): Applied to transform time-domain signals into frequency-domain to analyze dominant frequencies.
-  -Periodograms: Used to visualize the power spectral density of the signals and detect patterns indicative of drilling issues.
-  -Custom Functions: Developed functions to read header and data files specific to the sensor data format.
-
+- **RStudio:** Integrated development environment (IDE) for R.
+- **R Libraries:** 
+  - tuneR: For handling audio data and waveform manipulation.
+- **Techniques Utilized:**
+  - Fast Fourier Transform (FFT): Applied to transform time-domain signals into frequency-domain to analyze dominant frequencies.
+  - Periodograms: Used to visualize the power spectral density of the signals and detect patterns indicative of drilling issues.
+  - Custom Functions: Developed functions to read header and data files specific to the sensor data format.
